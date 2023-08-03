@@ -87,7 +87,7 @@ export default function Main() {
 
             formData.forEach((value,i)=>{return console.log("value",value)})
 
-            fetch('http://localhost:8000/panCardUploadImage', {
+            fetch('http://65.2.146.160:8000/panCardUploadImage', {
                 method: 'POST',
                 body: formData,
             })
@@ -117,7 +117,7 @@ export default function Main() {
 
             formData.forEach((value,i)=>{return console.log("value",value)})
 
-            fetch('http://localhost:8000/aadharCardUploadImage', {
+            fetch('http://65.2.146.160:8000/aadharCardUploadImage', {
                 method: 'POST',
                 body: formData,
             })
@@ -141,7 +141,7 @@ export default function Main() {
 
     const handleSubmit = () => {
         setLoading(true)
-        fetch(`http://localhost:8000/onBoardingForm`, {
+        fetch(`http://65.2.146.160:8000/onBoardingForm`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
