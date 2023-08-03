@@ -20,7 +20,7 @@ export default function Captcha(props) {
 
                 <div className="row text-center mt-2 mb-3">
                     <div className="col-1">
-                        <ReCAPTCHA sitekey="6Lcd3VonAAAAANnhAedfD8Oja7RbpHk8k7kBwR5j" onChange={props.handleCaptchaVerify} />
+                        <ReCAPTCHA sitekey="6LcUyXknAAAAAGuQh5lUxxRlwVT3mbUnC8R9XAjE" onChange={props.handleCaptchaVerify} />
                     </div>
                 </div>
 

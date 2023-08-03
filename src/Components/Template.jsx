@@ -6,7 +6,7 @@ export default function Template() {
 
             <div className="row text-center">
                 <div className="col-12">
-                    <h6 className='fn-color'>Welcome Investor,</h6>
+                    <h6 className='fn-color'>Welcome Investor</h6>
                     <h6 className='text-success'>"To a World of Sustainable Wealth Creation"</h6>
                 </div>
                 <div className="col-12 mt-1">
